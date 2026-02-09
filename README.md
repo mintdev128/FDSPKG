@@ -5,5 +5,5 @@
 
 `pkg play/add [pkgname] [name]`
  
-   Use `add` to download files from this repo, name as [pkgname] and local name as [name].
+   Use `add` to download files from this repo, downloads [pkgname] as [name].py .
    

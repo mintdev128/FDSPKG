@@ -3,7 +3,10 @@
 ## PKG tool 
   In this you can use pkg to play or download programms. 
 
-`pkg play/add [pkgname] [name]`
+`pkg play/add [pkgname]`
  
-   Use `add` to download files from this repo, downloads [pkgname] as [name].py .
-   
+when using function `add` downloads [pkgname],
+
+when using function `list` views list.txt file contents,
+
+when using function `play` executes downloaded PKGs.

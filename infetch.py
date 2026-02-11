@@ -1,0 +1,22 @@
+import os,sys,platform
+def get_terminal_width_os():
+    size = os.get_terminal_size()    
+    return size.columns
+terminal_width_os = get_terminal_width_os()
+osname = os.name
+host = sys.implementation.name
+arch = platform.machine()
+kernl = f'{platform.system()} {platform.release()}'
+proc = platform.processor()
+print(f'_........,,,,,,,,,,------.',' ' * round(terminal_width_os/6),'root')
+print(f'........,,,,,@@,,,-------+',' ' * round(terminal_width_os/6),'=' * 4)
+print(f'.......,,,,,@@@,,-------++',' ' * round(terminal_width_os/6),'OS:',kernl,osname)
+print(f'......,,,,,,@@@@@@-----+++',' ' * round(terminal_width_os/6),'Py:',host)
+print(f'.....,,@@,,,,@@@@@@---++++',' ' * round(terminal_width_os/6),'Arch:',arch)
+print(f'....,,@@@,,,,,@@@@@@-+++++',' ' * round(terminal_width_os/6),'Term Width:',terminal_width_os)
+print(f'...,,@@@@,,,,--@@@@@@+++++',' ' * round(terminal_width_os/6),'Proc:',proc)
+print(f'..,,,@@@@@,,--@@@@@@@+++++',' ' * round(terminal_width_os/6))
+print(f'.,,,,@@@@@@@@@@@@@@@@+++++',' ' * round(terminal_width_os/6))
+print(f',,,,,,@@@@@@@@@@@@@+++++++',' ' * round(terminal_width_os/6))
+print(f',,,,,,,,@@@@@@@@@+++++++++',' ' * round(terminal_width_os/6))
+print(f'\',,,,,,,-------++++++++++\'',' ' * round(terminal_width_os/6))

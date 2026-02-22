@@ -1,5 +1,6 @@
 List of programs in repo 
-NAME     DESCRIPTION          AUTHOR      MARKED AS
-hw       hello world          by FlameDev stable
-infetch  Shows Minimal info   by FlameDev stable
-test     Simple math test     By FlameDev stable
+NAME         DESCRIPTION            AUTHOR      MARKED AS    PYTHON
+hw           hello world            by FlameDev stable       python
+infetch      Shows Minimal info     by FlameDev (noupdate)   python
+test         Simple math test       By FlameDev stable       python
+flatfetch    Ported from C                                   python,micropython

@@ -1,9 +1,9 @@
 # Programs for FDS
 # Instructions
 ## PKG tool 
-  In this you can use pkg to play or download programms. 
+  In this you can use pkgct to play or download programms. 
 
-`pkg play/add [pkgname]`
+`pkgct play/add [pkgname]`
  
 when using function `add` downloads [pkgname],
 

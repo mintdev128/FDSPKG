@@ -1,5 +1,5 @@
 List of programs in repo 
 NAME     DESCRIPTION          AUTHOR      MARKED AS
-hw       hello world          by FlameDev V
-infetch  Shows Minimal info   by FlameDev V
-test     Simple math test     By FlameDev V
+hw       hello world          by FlameDev stable
+infetch  Shows Minimal info   by FlameDev stable
+test     Simple math test     By FlameDev stable
